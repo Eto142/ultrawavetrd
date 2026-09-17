@@ -1,0 +1,403 @@
+/*
+ * Finvora admin panel theme.
+ * Overrides Bootstrap 5's default (blue) theme with the brand's dark/gold palette.
+ * Shared by the login page and every page behind admin.header/admin.footer.
+ */
+
+:root {
+    --bs-primary: #EFB90B;
+    --bs-primary-rgb: 239, 185, 11;
+    --bs-body-bg: #0D0F14;
+    --bs-body-color: #A1A1AA;
+    --bs-border-color: #323945;
+    --bs-border-color-translucent: #323945;
+    --bs-secondary-bg: #1C2127;
+    --bs-tertiary-bg: #1C2127;
+    --bs-emphasis-color: #EDEDED;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #0D0F14;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0D0F14;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #323945;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3D4552;
+}
+
+a {
+    color: #EFB90B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E6C76E;
+}
+
+/* Bootstrap bakes .btn-primary/.btn-outline-primary's literal colors into its
+   compiled CSS at build time, so overriding --bs-primary alone doesn't reach
+   them — they need explicit overrides to pick up the brand color. */
+.btn-primary {
+    background-color: #EFB90B;
+    border-color: #EFB90B;
+    color: #0D0F14;
+    font-weight: 500;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #DFB41D;
+    border-color: #DFB41D;
+    color: #0D0F14;
+}
+
+.btn-outline-primary {
+    color: #EFB90B;
+    border-color: #EFB90B;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: #EFB90B;
+    border-color: #EFB90B;
+    color: #0D0F14;
+}
+
+.card {
+    background-color: #161A23;
+    border: 1px solid #2A2F36;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 1px 12px rgba(0, 0, 0, .18);
+}
+
+a.card {
+    transition: border-color .15s ease, transform .15s ease;
+}
+
+a.card:hover {
+    border-color: #EFB90B;
+    transform: translateY(-2px);
+}
+
+.card-header,
+.card-footer {
+    background-color: rgba(255, 255, 255, .02);
+    border-color: #2A2F36;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-color: #A1A1AA;
+}
+
+.table > :not(caption) > * > * {
+    border-bottom-color: #2A2F36;
+}
+
+.table-hover > tbody > tr:hover > * {
+    --bs-table-bg-state: rgba(255, 255, 255, .03);
+    color: #EDEDED;
+}
+
+.dropdown-menu {
+    background-color: #1C2127;
+    border-color: #2A2F36;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .45);
+}
+
+.dropdown-item {
+    color: #A1A1AA;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #262C35;
+    color: #EDEDED;
+}
+
+.dropdown-divider {
+    border-color: #2A2F36;
+}
+
+.modal-content {
+    background-color: #161A23;
+    border: 1px solid #2A2F36;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #2A2F36;
+}
+
+.pagination .page-link {
+    background-color: #161A23;
+    border-color: #2A2F36;
+    color: #A1A1AA;
+}
+
+.pagination .page-link:hover {
+    background-color: #1C2127;
+    color: #EDEDED;
+    border-color: #2A2F36;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #EFB90B;
+    border-color: #EFB90B;
+    color: #0D0F14;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #161A23;
+    border-color: #2A2F36;
+    color: #4B5563;
+}
+
+.form-control,
+.form-select,
+textarea {
+    background-color: #1C2127;
+    border-color: #2A2F36;
+    color: #EDEDED;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #1C2127;
+    border-color: #EFB90B;
+    color: #EDEDED;
+    box-shadow: 0 0 0 .25rem rgba(239, 185, 11, .15);
+}
+
+.form-control::placeholder {
+    color: #6B7280;
+}
+
+.form-check-input:checked {
+    background-color: #EFB90B;
+    border-color: #EFB90B;
+}
+
+/* Status badges used across all list/detail pages */
+.badge-pending {
+    background-color: rgba(245, 158, 11, .15);
+    color: #F59E0B;
+}
+
+.badge-approved {
+    background-color: rgba(0, 200, 150, .15);
+    color: #00C896;
+}
+
+.badge-rejected {
+    background-color: rgba(255, 77, 79, .15);
+    color: #FF4D4F;
+}
+
+.text-gain {
+    color: #00C896;
+}
+
+.text-loss {
+    color: #FF4D4F;
+}
+
+/* Stat card icon badges — small colored square with an icon, top of each stat card */
+.stat-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: .65rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    flex-shrink: 0;
+}
+
+.stat-icon-primary {
+    background-color: rgba(239, 185, 11, .15);
+    color: #EFB90B;
+}
+
+.stat-icon-success {
+    background-color: rgba(0, 200, 150, .15);
+    color: #00C896;
+}
+
+.stat-icon-warning {
+    background-color: rgba(245, 158, 11, .15);
+    color: #F59E0B;
+}
+
+.stat-icon-danger {
+    background-color: rgba(255, 77, 79, .15);
+    color: #FF4D4F;
+}
+
+.stat-icon-info {
+    background-color: rgba(59, 130, 246, .15);
+    color: #3B82F6;
+}
+
+.stat-card {
+    background-color: #161A23;
+    border: 1px solid #2A2F36;
+    border-radius: .85rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .35), 0 1px 12px rgba(0, 0, 0, .18);
+    padding: 1.25rem;
+    transition: border-color .15s ease, transform .15s ease;
+}
+
+a.stat-card:hover {
+    border-color: #EFB90B;
+    transform: translateY(-2px);
+}
+
+.stat-card .stat-value {
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #EDEDED;
+    line-height: 1.2;
+}
+
+.stat-card .stat-label {
+    font-size: .72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #6B7280;
+}
+
+/* Sidebar + topbar shell (admin.header/admin.footer pages only) */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    z-index: 1030;
+    background-color: #12151C;
+    border-right: 1px solid #2A2F36;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, .3);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s ease-in-out;
+}
+
+.sidebar-brand {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 0 1rem;
+    border-bottom: 1px solid #2A2F36;
+}
+
+.nav-group-label {
+    padding: 1.25rem 1rem .5rem;
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #6B7280;
+}
+
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .6rem 1rem;
+    font-size: .875rem;
+    color: #A1A1AA;
+    border-left: 2px solid transparent;
+    border-radius: 0;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #1C2127;
+    color: #EDEDED;
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(239, 185, 11, .12);
+    color: #E6C76E;
+    border-left-color: #EFB90B;
+}
+
+.sidebar-footer {
+    border-top: 1px solid #2A2F36;
+    padding: 1rem;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 260px;
+    height: 64px;
+    z-index: 1040;
+    background-color: #12151C;
+    border-bottom: 1px solid #2A2F36;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.main-panel {
+    margin-left: 260px;
+    padding-top: 64px;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+.sidebar-backdrop {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+    .topbar,
+    .main-panel {
+        left: 0;
+        margin-left: 0;
+    }
+
+    .sidebar-backdrop {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, .5);
+        z-index: 1025;
+    }
+
+    .sidebar-backdrop.show {
+        display: block;
+    }
+}
