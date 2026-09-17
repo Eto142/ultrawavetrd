@@ -482,107 +482,23 @@
 
     <div class="p-4">
         <div class="flex gap-3 overflow-x-auto pb-2 scrollbar-thin">
-                            
-                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors
-                    bg-primary border-primary">
-
+            @forelse ($marketOverview as $index => $market)
+                @php($isPositive = $market['change'] >= 0)
+                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors {{ $index === 0 ? 'bg-primary border-primary' : 'bg-surface-overlay border-surface-border hover:border-surface-border-light' }}">
                     <div class="flex items-center gap-2 mb-3">
-                                                    <img src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400" alt="BTC" class="w-7 h-7 rounded-full flex-shrink-0">
-                                                <span class="text-xs font-semibold truncate text-white">
-                            BTC
-                        </span>
-                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium
-                            text-white/80">
-                            ↓
-                            0.8%
+                        <img src="{{ $market['image'] }}" alt="{{ $market['symbol'] }}" class="w-7 h-7 rounded-full flex-shrink-0">
+                        <span class="text-xs font-semibold truncate {{ $index === 0 ? 'text-white' : 'text-content-primary' }}">{{ $market['symbol'] }}</span>
+                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium {{ $index === 0 ? 'text-white/80' : ($isPositive ? 'text-gain' : 'text-loss') }}">
+                            {{ $isPositive ? '↑' : '↓' }} {{ rtrim(rtrim(number_format(abs($market['change']), 2), '0'), '.') }}%
                         </span>
                     </div>
-
-                    <p class="text-lg font-bold text-white">
-                        $64,983.00
+                    <p class="text-lg font-bold {{ $index === 0 ? 'text-white' : 'text-content-primary' }}">
+                        ${{ number_format($market['price'], $market['price'] < 1 ? 6 : 2) }}
                     </p>
                 </div>
-                            
-                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors
-                    bg-surface-overlay border-surface-border hover:border-surface-border-light">
-
-                    <div class="flex items-center gap-2 mb-3">
-                                                    <img src="https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628" alt="ETH" class="w-7 h-7 rounded-full flex-shrink-0">
-                                                <span class="text-xs font-semibold truncate text-content-primary">
-                            ETH
-                        </span>
-                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium
-                            text-loss">
-                            ↓
-                            2%
-                        </span>
-                    </div>
-
-                    <p class="text-lg font-bold text-content-primary">
-                        $1,885.12
-                    </p>
-                </div>
-                            
-                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors
-                    bg-surface-overlay border-surface-border hover:border-surface-border-light">
-
-                    <div class="flex items-center gap-2 mb-3">
-                                                    <img src="https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661" alt="USDT" class="w-7 h-7 rounded-full flex-shrink-0">
-                                                <span class="text-xs font-semibold truncate text-content-primary">
-                            USDT
-                        </span>
-                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium
-                            text-gain">
-                            ↑
-                            0%
-                        </span>
-                    </div>
-
-                    <p class="text-lg font-bold text-content-primary">
-                        $0.99939
-                    </p>
-                </div>
-                            
-                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors
-                    bg-surface-overlay border-surface-border hover:border-surface-border-light">
-
-                    <div class="flex items-center gap-2 mb-3">
-                                                    <img src="https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970" alt="BNB" class="w-7 h-7 rounded-full flex-shrink-0">
-                                                <span class="text-xs font-semibold truncate text-content-primary">
-                            BNB
-                        </span>
-                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium
-                            text-loss">
-                            ↓
-                            0.4%
-                        </span>
-                    </div>
-
-                    <p class="text-lg font-bold text-content-primary">
-                        $567.00
-                    </p>
-                </div>
-                            
-                <div class="flex-shrink-0 w-[180px] rounded-lg p-3.5 border transition-colors
-                    bg-surface-overlay border-surface-border hover:border-surface-border-light">
-
-                    <div class="flex items-center gap-2 mb-3">
-                                                    <img src="https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602" alt="USDC" class="w-7 h-7 rounded-full flex-shrink-0">
-                                                <span class="text-xs font-semibold truncate text-content-primary">
-                            USDC
-                        </span>
-                        <span class="ml-auto flex items-center gap-0.5 text-[11px] font-medium
-                            text-gain">
-                            ↑
-                            0%
-                        </span>
-                    </div>
-
-                    <p class="text-lg font-bold text-content-primary">
-                        $0.999754
-                    </p>
-                </div>
-            
+            @empty
+                <p class="text-sm text-content-tertiary">Market data is temporarily unavailable.</p>
+            @endforelse
                     </div>
     </div>
 </div>
