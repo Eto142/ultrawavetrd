@@ -363,7 +363,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Daily Market <span style="color:#EDB80E">Updates</span>						</span>
+							Daily Market <span style="color:#1473EA">Updates</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -387,7 +387,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Premium Trading <span style="color:#EDB80E">Tools</span>						</span>
+							Premium Trading <span style="color:#1473EA">Tools</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -411,7 +411,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Funds <span style="color:#EDB80E">Protection</span>						</span>
+							Funds <span style="color:#1473EA">Protection</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -1462,7 +1462,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Reliable <span style="color:#EFB80C">Execution</span>						</span>
+							Reliable <span style="color:#1473EA">Execution</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -1488,7 +1488,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Intelligent <span style="color:#EFB80C">Analysis</span>						</span>
+							Intelligent <span style="color:#1473EA">Analysis</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -1514,7 +1514,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Transparent <span style="color:#EFB80C">Reporting</span>						</span>
+							Transparent <span style="color:#1473EA">Reporting</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -1540,7 +1540,7 @@
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Intuitive <span style="color:#EFB80C">Interface</span>						</span>
+							Intuitive <span style="color:#1473EA">Interface</span>						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
@@ -2074,11 +2074,11 @@
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-455aa95 e-con-full e-flex e-con e-child" data-id="455aa95" data-element_type="container" data-e-type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
 				<div class="elementor-element elementor-element-f6a3889 ha-has-bg-overlay elementor-widget elementor-widget-heading" data-id="f6a3889" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Success Stories</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Trader Experiences</h2>				</div>
 				<div class="elementor-element elementor-element-5125b93 elementor-widget elementor-widget-heading" data-id="5125b93" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Client Testimonials</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">What Traders Say</h2>				</div>
 				<div class="elementor-element elementor-element-cade966 elementor-widget elementor-widget-text-editor" data-id="cade966" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Hear from our satisfied clients who have achieved impressive results with our platform</p>								</div>
+									<p>Discover how traders use our tools, insights, and responsive support to stay focused on their strategy.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-0a7a812 e-grid e-con-full e-con e-child" data-id="0a7a812" data-element_type="container" data-e-type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
 		<div class="elementor-element elementor-element-67e1b9d e-con-full e-flex e-con e-child" data-id="67e1b9d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
@@ -2130,7 +2130,7 @@
 				</div>
 				<div class="elementor-element elementor-element-757edcc elementor-widget elementor-widget-testimonial" data-id="757edcc" data-element_type="widget" data-e-type="widget" data-widget_type="testimonial.default">
 							<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">Since I started using Ultrawavetrd, I have been earning like never before. You guys have the best signals.
+							<div class="elementor-testimonial-content">The market insights are clear and easy to act on. I can review my positions quickly and stay focused on my plan.
 </div>
 			
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
@@ -2139,8 +2139,8 @@
 							<img loading="lazy" decoding="async" width="1948" height="1902" src="wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed.jpg" class="attachment-full size-full wp-image-292" alt="" srcset="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed.jpg 1948w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed-300x293.jpg 300w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed-1024x1000.jpg 1024w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed-768x750.jpg 768w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210227-compressed-1536x1500.jpg 1536w" sizes="(max-width: 1948px) 100vw, 1948px" />						</div>
 					
 										<div class="elementor-testimonial-details">
-														<div class="elementor-testimonial-name">Malcom47</div>
-																						<div class="elementor-testimonial-job">Verified Trader</div>
+														<div class="elementor-testimonial-name">Malcolm R.</div>
+																													<div class="elementor-testimonial-job">Active Trader</div>
 													</div>
 									</div>
 			</div>
@@ -2196,7 +2196,7 @@
 				</div>
 				<div class="elementor-element elementor-element-1cc17e1 elementor-widget elementor-widget-testimonial" data-id="1cc17e1" data-element_type="widget" data-e-type="widget" data-widget_type="testimonial.default">
 							<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">I already got more than $200,000 within a month investing with Ultrawavetrd. Will again invest soon.</div>
+							<div class="elementor-testimonial-content">The account setup was straightforward, and the platform gives me the market information I need in one place.</div>
 			
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 				<div class="elementor-testimonial-meta-inner">
@@ -2204,7 +2204,7 @@
 							<img loading="lazy" decoding="async" width="1944" height="1912" src="wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed.jpg" class="attachment-full size-full wp-image-293" alt="" srcset="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed.jpg 1944w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed-300x295.jpg 300w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed-1024x1007.jpg 1024w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed-768x755.jpg 768w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210155-compressed-1536x1511.jpg 1536w" sizes="(max-width: 1944px) 100vw, 1944px" />						</div>
 					
 										<div class="elementor-testimonial-details">
-														<div class="elementor-testimonial-name">Christy</div>
+														<div class="elementor-testimonial-name">Christy M.</div>
 																						<div class="elementor-testimonial-job">Elite Investor</div>
 													</div>
 									</div>
@@ -2261,7 +2261,7 @@
 				</div>
 				<div class="elementor-element elementor-element-96c681f elementor-widget elementor-widget-testimonial" data-id="96c681f" data-element_type="widget" data-e-type="widget" data-widget_type="testimonial.default">
 							<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">I was able to earn additional $30,000 to my profit. It's amazing, you guys are the best, keep it up.</div>
+							<div class="elementor-testimonial-content">I appreciate having flexible tools for different markets. The layout is clean, responsive, and easy to navigate.</div>
 			
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 				<div class="elementor-testimonial-meta-inner">
@@ -2269,8 +2269,8 @@
 							<img loading="lazy" decoding="async" width="1902" height="1898" src="wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed.jpg" class="attachment-full size-full wp-image-294" alt="" srcset="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed.jpg 1902w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed-300x300.jpg 300w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed-1024x1022.jpg 1024w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed-150x150.jpg 150w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed-768x766.jpg 768w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210130-compressed-1536x1533.jpg 1536w" sizes="(max-width: 1902px) 100vw, 1902px" />						</div>
 					
 										<div class="elementor-testimonial-details">
-														<div class="elementor-testimonial-name">Linday8</div>
-																						<div class="elementor-testimonial-job">Professional Trader</div>
+														<div class="elementor-testimonial-name">Linda Y.</div>
+																													<div class="elementor-testimonial-job">Independent Trader</div>
 													</div>
 									</div>
 			</div>
@@ -2326,7 +2326,7 @@
 				</div>
 				<div class="elementor-element elementor-element-3b06a14 elementor-widget elementor-widget-testimonial" data-id="3b06a14" data-element_type="widget" data-e-type="widget" data-widget_type="testimonial.default">
 							<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">This was a very easy process and I received my funds quickly as I needed them! Highly recommend Ultrawavetrd.
+							<div class="elementor-testimonial-content">Whenever I have a question, support is easy to reach and the response is practical. That makes the day-to-day experience much smoother.
 
 </div>
 			
@@ -2336,8 +2336,8 @@
 							<img loading="lazy" decoding="async" width="1950" height="1912" src="wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed.jpg" class="attachment-full size-full wp-image-295" alt="" srcset="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed.jpg 1950w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed-300x294.jpg 300w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed-1024x1004.jpg 1024w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed-768x753.jpg 768w, https://Ultrawavetrd.live/wp-content/uploads/2026/03/Screenshot-2026-03-25-210211-compressed-1536x1506.jpg 1536w" sizes="(max-width: 1950px) 100vw, 1950px" />						</div>
 					
 										<div class="elementor-testimonial-details">
-														<div class="elementor-testimonial-name">Crian</div>
-																						<div class="elementor-testimonial-job">Active Trader</div>
+														<div class="elementor-testimonial-name">C. Ryan</div>
+																										<div class="elementor-testimonial-job">Platform User</div>
 													</div>
 									</div>
 			</div>

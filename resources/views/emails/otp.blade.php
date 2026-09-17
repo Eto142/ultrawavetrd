@@ -13,7 +13,7 @@
 
                 <tr>
                     <td align="center" style="background-color:#0D0F14; padding:28px 24px;">
-                        <img src="{{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }}" alt="Finvora Digital" style="height:32px; width:auto; display:block;">
+                        <img src="{{ asset('logo.png') }}" alt="Finvora Digital" style="height:32px; width:auto; display:block;">
                     </td>
                 </tr>
 
@@ -28,9 +28,9 @@
 
                 <tr>
                     <td align="center" style="padding:0 32px 24px;">
-                        <table role="presentation" cellpadding="0" cellspacing="0" style="background-color:#FBF4DF; border:1px solid #EFB90B; border-radius:10px;">
+                        <table role="presentation" cellpadding="0" cellspacing="0" style="background-color:#EAF4FF; border:1px solid #1473EA; border-radius:10px;">
                             <tr>
-                                <td style="padding:18px 40px; font-size:32px; font-weight:700; letter-spacing:10px; color:#8A6A05; font-family:'Courier New', monospace;">
+                                <td style="padding:18px 40px; font-size:32px; font-weight:700; letter-spacing:10px; color:#0B3B78; font-family:'Courier New', monospace;">
                                     {{ $code }}
                                 </td>
                             </tr>

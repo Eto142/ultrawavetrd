@@ -36,14 +36,14 @@
                         inverse: '#0D0F14',
                     },
                     primary: {
-                        DEFAULT: '#EFB90B',
-                        light: '#E6C76E',
-                        dark: '#DFB41D',
-                        subtle: 'rgba(239,185,11,0.12)',
+                        DEFAULT: '#1473EA',
+                        light: '#4DA3FF',
+                        dark: '#0B5BC4',
+                        subtle: 'rgba(20,115,234,0.12)',
                     },
                     gain: '#00C896',
                     loss: '#FF4D4F',
-                    warning: '#F59E0B',
+                    warning: '#1473EA',
                     info: '#3B82F6',
                     info: '#3B82F6',
                 },
@@ -104,7 +104,7 @@
         
         <div class="flex items-center justify-between h-16 px-4 border-b border-surface-border shrink-0">
             <a href="{{route('user.dashboard')}}" class="flex items-center">
-                <img src="{{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }}" alt="Ultrawavetrd" class="h-8 w-auto max-w-[140px] object-contain">
+                <img src="{{ asset('logo.png') }}" alt="Ultrawavetrd" class="h-8 w-auto max-w-[140px] object-contain">
             </a>
             <button @click="mobileSidebar = false" class="lg:hidden text-content-tertiary hover:text-content-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5" aria-hidden="true">

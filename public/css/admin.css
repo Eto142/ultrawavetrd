@@ -1,12 +1,12 @@
 /*
  * Finvora admin panel theme.
- * Overrides Bootstrap 5's default (blue) theme with the brand's dark/gold palette.
+ * Overrides Bootstrap 5's default theme with the brand's dark/blue palette.
  * Shared by the login page and every page behind admin.header/admin.footer.
  */
 
 :root {
-    --bs-primary: #EFB90B;
-    --bs-primary-rgb: 239, 185, 11;
+    --bs-primary: #1473EA;
+    --bs-primary-rgb: 20, 115, 234;
     --bs-body-bg: #0D0F14;
     --bs-body-color: #A1A1AA;
     --bs-border-color: #323945;
@@ -40,41 +40,41 @@ body {
 }
 
 a {
-    color: #EFB90B;
+    color: #1473EA;
     text-decoration: none;
 }
 
 a:hover {
-    color: #E6C76E;
+    color: #4DA3FF;
 }
 
 /* Bootstrap bakes .btn-primary/.btn-outline-primary's literal colors into its
    compiled CSS at build time, so overriding --bs-primary alone doesn't reach
    them — they need explicit overrides to pick up the brand color. */
 .btn-primary {
-    background-color: #EFB90B;
-    border-color: #EFB90B;
+    background-color: #1473EA;
+    border-color: #1473EA;
     color: #0D0F14;
     font-weight: 500;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #DFB41D;
-    border-color: #DFB41D;
+    background-color: #0B5BC4;
+    border-color: #0B5BC4;
     color: #0D0F14;
 }
 
 .btn-outline-primary {
-    color: #EFB90B;
-    border-color: #EFB90B;
+    color: #1473EA;
+    border-color: #1473EA;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
 .btn-outline-primary:active {
-    background-color: #EFB90B;
-    border-color: #EFB90B;
+    background-color: #1473EA;
+    border-color: #1473EA;
     color: #0D0F14;
 }
 
@@ -89,7 +89,7 @@ a.card {
 }
 
 a.card:hover {
-    border-color: #EFB90B;
+    border-color: #1473EA;
     transform: translateY(-2px);
 }
 
@@ -156,8 +156,8 @@ a.card:hover {
 }
 
 .pagination .page-item.active .page-link {
-    background-color: #EFB90B;
-    border-color: #EFB90B;
+    background-color: #1473EA;
+    border-color: #1473EA;
     color: #0D0F14;
 }
 
@@ -178,9 +178,9 @@ textarea {
 .form-control:focus,
 .form-select:focus {
     background-color: #1C2127;
-    border-color: #EFB90B;
+    border-color: #1473EA;
     color: #EDEDED;
-    box-shadow: 0 0 0 .25rem rgba(239, 185, 11, .15);
+    box-shadow: 0 0 0 .25rem rgba(20, 115, 234, .15);
 }
 
 .form-control::placeholder {
@@ -188,14 +188,14 @@ textarea {
 }
 
 .form-check-input:checked {
-    background-color: #EFB90B;
-    border-color: #EFB90B;
+    background-color: #1473EA;
+    border-color: #1473EA;
 }
 
 /* Status badges used across all list/detail pages */
 .badge-pending {
-    background-color: rgba(245, 158, 11, .15);
-    color: #F59E0B;
+    background-color: rgba(20, 115, 234, .15);
+    color: #1473EA;
 }
 
 .badge-approved {
@@ -229,8 +229,8 @@ textarea {
 }
 
 .stat-icon-primary {
-    background-color: rgba(239, 185, 11, .15);
-    color: #EFB90B;
+    background-color: rgba(20, 115, 234, .15);
+    color: #1473EA;
 }
 
 .stat-icon-success {
@@ -239,8 +239,8 @@ textarea {
 }
 
 .stat-icon-warning {
-    background-color: rgba(245, 158, 11, .15);
-    color: #F59E0B;
+    background-color: rgba(20, 115, 234, .15);
+    color: #1473EA;
 }
 
 .stat-icon-danger {
@@ -263,7 +263,7 @@ textarea {
 }
 
 a.stat-card:hover {
-    border-color: #EFB90B;
+    border-color: #1473EA;
     transform: translateY(-2px);
 }
 
@@ -334,9 +334,9 @@ a.stat-card:hover {
 }
 
 .sidebar .nav-link.active {
-    background-color: rgba(239, 185, 11, .12);
-    color: #E6C76E;
-    border-left-color: #EFB90B;
+    background-color: rgba(20, 115, 234, .12);
+    color: #4DA3FF;
+    border-left-color: #1473EA;
 }
 
 .sidebar-footer {

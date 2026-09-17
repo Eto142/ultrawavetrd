@@ -35,14 +35,14 @@
                         inverse: '#0D0F14',
                     },
                     primary: {
-                        DEFAULT: '#EFB90B',
-                        light: '#E6C76E',
-                        dark: '#DFB41D',
-                        subtle: 'rgba(239,185,11,0.12)',
+                        DEFAULT: '#1473EA',
+                        light: '#4DA3FF',
+                        dark: '#0B5BC4',
+                        subtle: 'rgba(20,115,234,0.12)',
                     },
                     gain: '#00C896',
                     loss: '#FF4D4F',
-                    warning: '#F59E0B',
+                    warning: '#1473EA',
                     info: '#3B82F6',
                 },
             },
@@ -86,7 +86,7 @@
     
     <div class="text-center mb-8">
         <a href="/">
-            <img src="wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png" alt="Ultrawavetrd" class="h-12 mx-auto">
+            <img src="{{ asset('logo.png') }}" alt="Ultrawavetrd" class="h-12 mx-auto">
         </a>
     </div>
 

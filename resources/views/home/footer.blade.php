@@ -46,7 +46,7 @@
             <div class="elementor-element elementor-element-31d36b4 e-con-full e-flex e-con e-child" data-id="31d36b4" data-element_type="container" data-e-type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
                 <div class="elementor-element elementor-element-7629a4f elementor-widget elementor-widget-image" data-id="7629a4f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
                     <a href="{{ url('/') }}">
-                        <img width="800" height="99" src="wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png" class="attachment-large size-large wp-image-699" alt="" />
+                        <img src="{{ asset('logo.png') }}" class="attachment-large size-large" alt="Ultrawavetrd" />
                     </a>
                 </div>
                 <div class="elementor-element elementor-element-da24d3a elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="da24d3a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">

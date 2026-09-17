@@ -13,7 +13,7 @@
 
                 <tr>
                     <td align="center" style="background-color:#0D0F14; padding:28px 24px;">
-                        <img src="{{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }}" alt="Finvora Digital" style="height:32px; width:auto; display:block;">
+                        <img src="{{ asset('logo.png') }}" alt="Finvora Digital" style="height:32px; width:auto; display:block;">
                     </td>
                 </tr>
 

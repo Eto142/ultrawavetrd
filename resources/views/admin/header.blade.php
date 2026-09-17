@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ $title ?? 'Admin' }} — Chase Devere</title>
+    <title>{{ $title ?? 'Admin' }} — Ultra wavetrd</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
 
 <nav class="sidebar" id="adminSidebar">
     <div class="sidebar-brand">
-        <img src="{{ asset('logo.png') }}" alt="Chase Devere" style="height:24px;">
+        <img src="{{ asset('logo.png') }}" alt="Ultra wavetrd" style="height:24px;">
     </div>
 
     <div class="nav flex-column flex-grow-1">
