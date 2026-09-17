@@ -19,7 +19,7 @@ class OtpMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Your Finvora Digital verification code',
+            subject: 'Your Ultrawavetrd Digital verification code',
         );
     }
 

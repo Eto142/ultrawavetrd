@@ -73,10 +73,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					}
 				}
 			</style>
-			<link rel="icon" href="wp-content/uploads/2026/03/Asset-4649finvora.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2026/03/Asset-4649finvora.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2026/03/Asset-4649finvora.png" />
-<meta name="msapplication-TileImage" content="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Asset-4649finvora.png" />
+			<link rel="icon" href="wp-content/uploads/2026/03/Asset-4649Ultrawavetrd.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2026/03/Asset-4649Ultrawavetrd.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2026/03/Asset-4649Ultrawavetrd.png" />
+<meta name="msapplication-TileImage" content="https://Ultrawavetrd.live/wp-content/uploads/2026/03/Asset-4649Ultrawavetrd.png" />
 <style id="ultrawave-blue-brand-overrides">
 	:root {
 		--e-global-color-primary: #1473EA !important;
@@ -122,7 +122,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		color: #1473EA !important;
 	}
 
-	img[src*="Asset-4651finvora"] {
+	img[src*="Asset-4651Ultrawavetrd"] {
 		content: url("{{ asset('logo.png') }}");
 	}
 
@@ -146,7 +146,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-136e59e e-con-full e-flex e-con e-child" data-id="136e59e" data-element_type="container" data-e-type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
 				<div class="elementor-element elementor-element-dad0e57 elementor-widget elementor-widget-image" data-id="dad0e57" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 																		<a href="/">
-							<img fetchpriority="high" width="800" height="99" src="{{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }}" class="attachment-large size-large wp-image-699" alt="" srcset="{{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }} 1024w, {{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }} 300w, {{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }} 768w, {{ asset('wp-content/uploads/2026/03/Asset-4651finvora-1024x127.png') }} 1244w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+							<img fetchpriority="high" width="800" height="99" src="{{ asset('wp-content/uploads/2026/03/Asset-4651Ultrawavetrd-1024x127.png') }}" class="attachment-large size-large wp-image-699" alt="" srcset="{{ asset('wp-content/uploads/2026/03/Asset-4651Ultrawavetrd-1024x127.png') }} 1024w, {{ asset('wp-content/uploads/2026/03/Asset-4651Ultrawavetrd-1024x127.png') }} 300w, {{ asset('wp-content/uploads/2026/03/Asset-4651Ultrawavetrd-1024x127.png') }} 768w, {{ asset('wp-content/uploads/2026/03/Asset-4651Ultrawavetrd-1024x127.png') }} 1244w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
 															</div>
 				</div>
 		<div class="elementor-element elementor-element-b11967d e-con-full e-flex e-con e-child" data-id="b11967d" data-element_type="container" data-e-type="container" data-settings="{&quot;_ha_eqh_enable&quot;:false}">

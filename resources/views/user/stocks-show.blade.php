@@ -201,7 +201,7 @@
 
         <footer class="border-t border-surface-border py-6 px-6 mt-8">
             <p class="text-sm text-content-tertiary text-center">
-                &copy; Finvora Digital.
+                &copy; Ultrawavetrd Digital.
             </p>
         </footer>
     </main>

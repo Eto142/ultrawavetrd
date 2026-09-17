@@ -13,7 +13,7 @@
 
                 <tr>
                     <td align="center" style="background-color:#0D0F14; padding:28px 24px;">
-                        <img src="{{ asset('logo.png') }}" alt="Finvora Digital" style="height:32px; width:auto; display:block;">
+                        <img src="{{ asset('logo.png') }}" alt="Ultrawavetrd Digital" style="height:32px; width:auto; display:block;">
                     </td>
                 </tr>
 
@@ -21,7 +21,7 @@
                     <td style="padding:36px 32px 8px;">
                         <p style="margin:0 0 16px; font-size:15px; line-height:1.6; color:#1F2937;">Hi {{ $name }},</p>
                         <p style="margin:0 0 24px; font-size:15px; line-height:1.6; color:#1F2937;">
-                            Use the verification code below to confirm your email address and activate your Finvora Digital account.
+                            Use the verification code below to confirm your email address and activate your Ultrawavetrd Digital account.
                         </p>
                     </td>
                 </tr>
@@ -44,7 +44,7 @@
                             This code will expire in <strong>10 minutes</strong>.
                         </p>
                         <p style="margin:0; font-size:14px; line-height:1.6; color:#6B7280;">
-                            If you did not create an account with Finvora Digital, you can safely ignore this email.
+                            If you did not create an account with Ultrawavetrd Digital, you can safely ignore this email.
                         </p>
                     </td>
                 </tr>
@@ -52,7 +52,7 @@
                 <tr>
                     <td style="padding:20px 32px; background-color:#F9FAFB; border-top:1px solid #E5E7EB;">
                         <p style="margin:0; font-size:12px; line-height:1.6; color:#9CA3AF; text-align:center;">
-                            &copy; {{ date('Y') }} Finvora Digital. All rights reserved.
+                            &copy; {{ date('Y') }} Ultrawavetrd Digital. All rights reserved.
                         </p>
                     </td>
                 </tr>
